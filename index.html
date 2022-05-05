@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="dist/style.min.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<div class="jargons">
+			<p>
+				The tags of strong and
+				emphasis are used to place on a group of words or a word. Strong emphasizes importance while emphasis emphasizes
+				meaning. 
+			</p>
+			<p>
+				Here's an application of use of abbreviation and acronym <abbr
+					title="Professor">Prof.</abbr> Kris from <acronym title="National Chemicals Federation">NCF</acronym> are swimming.
+				Now, Let's have a quote below this paragraph.
+			</p>
+			<blockquote cite="https://www.wikipedia.org/wiki/Thanos">You couldn't deal with your failure and where did that bring
+				you? back to me. - Thanos(Avengers-Endgame)</blockquote>
+			<p><s>As Hakeem said <q>Fake news! Davido Didn't slap him</q></s></p>
+			
+			<p>for definitive lists, the list is created with the "dl" tag and the terms and definition
+				are in the "dt" and "dd" tags respectfully. I'd drop an example below</p>
+			
+			<p>To open a new window, when declaring your website, you have to include a target. In this case, the target has to be "_blank".</p>
+		</div> 
+
+	<main id="main">
+		<h1>Quick tip</h1>
+		<section>
+			<div class="bill">
+				<label for="yourBill">Bill</label>
+				<input type="number" placeholder="ENter your bill here" id="yourBill">
+			</div>
+			<div>
+				<div class="s-b">
+					<label for="tipInput">Select tip</label>
+					<span id="tipPercent">0%</span>
+				</div>
+				<input type="range" value="0" min="1" max="100" class="range" id="tipInput">
+			</div>
+			<div class="s-b">
+				<span>Tip</span>
+				<span id="tipValue">$1</span>
+			</div>
+			<hr>
+			<div class="s-b total">
+				<span>Total</span>
+				<span id="totalWithTip">$45.00</span>
+			</div>
+		</section>
+		<section>
+			<div>
+				<div class="s-b">
+					<label for="splitInput">split</label>
+					<span id="splitValue"></span>
+				</div>
+				<input type="range" value="1" min="1" max="7" id="splitInput" class="range">
+			</div>
+			<div class="s-b">
+				<span>Bill each</span>
+				<span id="billEach">$</span>
+			</div>
+			<div class="s-b">
+				<span>Tip each</span>
+				<span id="tipEach">$</span>
+			</div>
+		</section>
+	</main>
+
+
+
+</body>
+</html>
+
+
