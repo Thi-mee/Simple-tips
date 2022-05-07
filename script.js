@@ -1,15 +1,8 @@
 const main = document.getElementById("main")
-
-
-
 const tipValue = document.getElementById("tipValue")
 const totalWithTip = document.getElementById("totalWithTip")
-
-
 const billEach = document.getElementById("billEach")
 const tipEach = document.getElementById("tipEach")
-
-
 update()
 main.addEventListener("input", update)
 
@@ -38,10 +31,10 @@ function update(){
     document.getElementById("splitValue").innerText = `${a} people`
   }
   temp = tip/a
-  be = temp.toFixed(2)
-  tipEach.innerText = `$${be}`
+  temp = temp.toFixed(2)
+  tipEach.innerText = `$${temp}`
 
   temp = bill/a
-  be = temp.toFixed(2)
-  billEach.innerText = `$${be}`
+  temp = temp.toFixed(2)
+  billEach.innerText = `$${temp}`
 }
